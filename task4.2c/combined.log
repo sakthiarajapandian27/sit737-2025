@@ -1,0 +1,12 @@
+{"level":"info","message":"Parameters 10 and 5 received for addition","service":"add-service"}
+{"level":"info","message":"Parameters 10 and 7 received for addition","service":"add-service"}
+{"level":"info","message":"Addition: 10 + 10 = 20","service":"calculator-service"}
+{"level":"info","message":"Subtraction: 10 - 10 = 0","service":"calculator-service"}
+{"level":"info","message":"Division: 10 / 2 = 5","service":"calculator-service"}
+{"level":"info","message":"Multiplication: 10 * 2 = 20","service":"calculator-service"}
+{"level":"error","message":"Division by zero is not allowed.","service":"calculator-service"}
+{"level":"info","message":"Exponentiation: 2 ^ 3 = 8","service":"calculator-service"}
+{"level":"info","message":"Square Root: sqrt(9) = 3","service":"calculator-service"}
+{"level":"info","message":"Modulo: 10 % 3 = 1","service":"calculator-service"}
+{"level":"info","message":"Square Root: sqrt(0) = 0","service":"calculator-service"}
+{"level":"error","message":"Square root of negative numbers is not allowed.","service":"calculator-service"}

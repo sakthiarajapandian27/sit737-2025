@@ -1,0 +1,2 @@
+{"level":"error","message":"Division by zero is not allowed.","service":"calculator-service"}
+{"level":"error","message":"Square root of negative numbers is not allowed.","service":"calculator-service"}

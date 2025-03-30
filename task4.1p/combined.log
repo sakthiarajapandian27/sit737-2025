@@ -1,0 +1,7 @@
+{"level":"info","message":"Parameters 10 and 5 received for addition","service":"add-service"}
+{"level":"info","message":"Parameters 10 and 7 received for addition","service":"add-service"}
+{"level":"info","message":"Addition: 10 + 10 = 20","service":"calculator-service"}
+{"level":"info","message":"Subtraction: 10 - 10 = 0","service":"calculator-service"}
+{"level":"info","message":"Division: 10 / 2 = 5","service":"calculator-service"}
+{"level":"info","message":"Multiplication: 10 * 2 = 20","service":"calculator-service"}
+{"level":"error","message":"Division by zero is not allowed.","service":"calculator-service"}
