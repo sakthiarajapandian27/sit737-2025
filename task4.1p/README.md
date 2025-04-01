@@ -10,10 +10,10 @@ multiply, and divide.
 cmd: node server.js 
 6. As the port set is 3040; 
 test all the arithmetic operations and are logging properly; 
-http://localhost:3040/add?num1=10&num2=10 
-http://localhost:3040/subtract?num1=10&num2=10 
-http://localhost:3040/multiply?num1=10&num2=2 
-http://localhost:3040/divide?num1=10&num2=2 
+http://localhost:3040/add?n1=10&n2=10 
+http://localhost:3040/subtract?n1=10&n2=10 
+http://localhost:3040/multiply?n1=10&n2=2 
+http://localhost:3040/divide?n1=10&n2=2 
 7. Check and test the error handling operations: 
 http://localhost:3040/divide?num1=10&num2=0 
 8. Check logs 
