@@ -1,3 +1,4 @@
+Step by step procedure
 1. Install node.js 
 cmd: npm init -y 
 2. Install express Winston(integrates the Winston logging) 
