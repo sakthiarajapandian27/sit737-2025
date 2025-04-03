@@ -64,6 +64,5 @@ docker compose down
 ```
 This will stop and remove all running containers.
 
-## Conclusion
-You have successfully built, run, and monitored a Dockerized Node.js application. 🎉 Happy coding! 🚀
+
 
