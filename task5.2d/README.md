@@ -1,21 +1,3 @@
-```markdown
-# 📦 Deploy Docker Image to Google Artifact Registry & Run Locally
-
-
-This guide walks you through building a Docker image, pushing it to **Google Artifact Registry**, and running it locally.
-
----
-
-## 📝 Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Step 1: Authenticate and Configure Google Cloud](#step-1-authenticate-and-configure-google-cloud)
-- [Step 2: Create Artifact Registry Repository](#step-2-create-artifact-registry-repository)
-- [Step 3: Build, Tag & Push Docker Image](#step-3-build-tag--push-docker-image)
-- [Step 4: Run the Container Locally](#step-4-run-the-container-locally)
-- [Accessing the Web App](#accessing-the-web-app)
-- [Summary of Commands](#summary-of-commands)
-
 ---
 
 ## ✅ Prerequisites
