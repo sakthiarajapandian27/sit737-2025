@@ -1,7 +1,6 @@
-# 🚀 SimpleServer Kubernetes Deployment
+# 🚀 Interacting with Kubernetes
 
 This project demonstrates deploying a Dockerized Node.js application to a Kubernetes cluster.  
-It is designed for **SIT323/SIT737 - Cloud Native Application Development, Practical 6C**.
 
 ---
 
