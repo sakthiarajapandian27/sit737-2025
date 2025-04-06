@@ -1,0 +1,37 @@
+apiVersion: apps/v1 
+kind: Deployment 
+metadata:
+  name: simpleserver-deployment
+spec:
+  replicas: 1 
+  selector:
+    matchLabels:
+      app: simpleserver 
+  template: 
+    metadata:
+      labels:
+        app: simpleserver
+    spec:
+      containers:
+        - name: simpleserver 
+          #image: sakthiarajapandian/simpleserver:1.1# version 1
+          image: sakthiarajapandian/simpleserver:2.0 # version 2
+          ports:
+            - containerPort: 3000
+          env:
+            - name: PORT 
+              value: "3000"
+---
+apiVersion: v1
+kind: Service 
+metadata:
+  name: simpleserver-service 
+spec:
+  selector:
+    app: simpleserver 
+  type: NodePort
+  ports:
+    - protocol: TCP 
+      port: 3000
+      targetPort: 3000
+      nodePort: 30007

@@ -1,0 +1,19 @@
+{
+  "name": "newproject",
+  "version": "1.0.0",
+  "main": "server.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Getting Started\r Prerequisites: \r Before proceeding, ensure that:\r Node.js is installed on your system. \r You can check by running: node -v",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "winston": "^3.17.0"
+  }
+}
