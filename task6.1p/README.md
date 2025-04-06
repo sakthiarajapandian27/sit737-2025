@@ -59,7 +59,7 @@ docker push sakthiarajapandian/simpleserver:1.1
 ### 5. Apply Kubernetes Configuration
 
 ```bash
-kubectl apply -f deployment-service.yml
+kubectl apply -f deployment.yaml
 ```
 
 ---
@@ -91,7 +91,7 @@ Hello, Docker!
 ## 🧼 To Delete Everything
 
 ```bash
-kubectl delete -f deployment-service.yml
+kubectl delete -f deployment.yaml
 ```
 
 ---
